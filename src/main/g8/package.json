@@ -1,0 +1,16 @@
+{
+  "name": <service_name>,
+  "version": <service_version>,
+  "description": <service_description>,
+  "main": <main file>,
+  "scripts": {
+    "start": <start_Script/ default"start-broker">
+  },
+  "dependencies": {
+    "@sap/sbf": "^1.5.0",
+    "@sap/xsenv": "^1.2.9"
+  },
+  "engines": {
+    "node": "^6.0.0"
+  }
+}
